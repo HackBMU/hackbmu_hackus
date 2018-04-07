@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home"
+            />
+        <item
+            android:id="@+id/nav_bookrented"
+            android:icon="@drawable/ic_book_black_24dp"
+            android:title="Books Rented"
+            />
+        <item
+            android:id="@+id/nav_bookborrowed"
+            android:icon="@drawable/ic_library_books_black_24dp"
+            android:title="Books Borrowed"
+            />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_account_box_black_24dp"
+            android:title="Your Account" />
+        <item
+            android:id="@+id/ab"
+            android:icon="@drawable/ic_library_books_black_24dp"
+            android:title="Add a Book" />
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_payment"
+                android:icon="@drawable/ic_payment_black_24dp"
+                android:title="Pay"
+                />
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/ic_rate_review_black_24dp"
+                android:title="Rate Us"
+                />
+            <item
+                android:id="@+id/nav_setting"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Setting"
+                />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_menu_send"
+                android:title="About Google Play"
+                />
+        </menu>
+    </item>
+
+</menu>

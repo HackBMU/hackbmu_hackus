@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Email Id"
+                android:id="@+id/e1"
+                android:inputType="text"
+                android:textSize="20dp"
+                />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:hint="Create Password"
+            >
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/e2"
+                android:inputType="textPassword"
+                android:textSize="20dp"
+                />
+        </android.support.design.widget.TextInputLayout>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Terms and Condition and Privacy Policy"
+            android:layout_marginTop="50dp"
+            android:textSize="18dp"
+            android:textColor="#1b4cde"
+            android:checked="false"
+            />
+
+        <Button
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:background="#1b4cde"
+            android:text="Create a New Account"
+            android:textColor="#ffff"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:id="@+id/btn1"
+            />
+        <TextView
+            android:layout_width="91dp"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:layout_marginTop="30dp"
+            android:textSize="24dp"
+            android:textColor="#1b4cde"
+            android:layout_gravity="center"
+            android:id="@+id/text4"
+            android:onClick="Login"
+            android:layout_marginBottom="40dp"
+            />
+
+
+    </LinearLayout>
+</ScrollView>

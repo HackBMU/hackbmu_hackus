@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "226455208511",
+    "firebase_url": "https://booklend-809e8.firebaseio.com",
+    "project_id": "booklend-809e8",
+    "storage_bucket": "booklend-809e8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:226455208511:android:31ed0284e8f258f1",
+        "android_client_info": {
+          "package_name": "myguruh.com.booklend"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "226455208511-ujau12vtbaghdvluod9m6566co8m767l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "myguruh.com.booklend",
+            "certificate_hash": "297ec72c1040b7c9e3887c7b0d82b8332ad3d430"
+          }
+        },
+        {
+          "client_id": "226455208511-ou749sosah7diadfv54nu3eknko43478.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8PrswiPxZUw-ALaykjgVW7gqsmZsnjn4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "226455208511-ou749sosah7diadfv54nu3eknko43478.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
